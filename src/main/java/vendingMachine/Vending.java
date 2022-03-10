@@ -3,7 +3,7 @@ package vendingMachine;
 
 import java.util.Scanner;
 
-class vendingExample
+class Vending
 
 {
 	public String cancel;
@@ -50,7 +50,7 @@ class vendingExample
 					System.out.println("Thank you for your purchase!! ");
 					System.out.println("Your balance is "+total);
 				}else{
-					System.out.println("Insert "+coke+"cents to buy Coke");
+					System.out.println("Insufficient amount please Insert "+coke+"cents to buy Coke");
 
 				}
 				break;
@@ -68,7 +68,7 @@ class vendingExample
 					System.out.println("Thank you for your purchase!! ");
 					System.out.println("Your balance is "+total);
 				}else{
-					System.out.println("Insert "+pepsi+"cents to buy Pepsi");
+					System.out.println("Insufficient amount please Insert "+pepsi+"cents to buy Pepsi");
 				}
 				break;
 			case "SODA":
@@ -85,7 +85,7 @@ class vendingExample
 					System.out.println("Thank you for your purchase!! ");
 					System.out.println("Your balance is "+total);
 				}else{
-					System.out.println("Insert "+soda+"cents to buy Soda");
+					System.out.println("Insufficient amount please Insert "+soda+"cents to buy Soda");
 				}
 				break;
 			case "RETURN":
